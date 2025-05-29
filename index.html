@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNS HOANG NAM - Cấu hình chặn quảng cáo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .header p {
+            color: #7f8c8d;
+            font-size: 1.2em;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #2193b0, #6dd5ed);
+            color: white;
+            padding: 20px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.2em;
+            font-weight: 500;
+            margin: 30px 0;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(33, 147, 176, 0.3);
+            text-align: center;
+            width: 100%;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(33, 147, 176, 0.4);
+        }
+
+        .info-list {
+            list-style: none;
+            padding: 0;
+            margin: 30px 0;
+        }
+
+        .info-list li {
+            margin: 15px 0;
+            padding: 15px 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #2193b0;
+            transition: transform 0.2s ease;
+        }
+
+        .info-list li:hover {
+            transform: translateX(5px);
+        }
+
+        .features {
+            margin-top: 40px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 15px;
+        }
+
+        .features h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            text-align: center;
+        }
+
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .features li {
+            margin: 15px 0;
+            padding: 12px 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            display: flex;
+            align-items: center;
+        }
+
+        .features li:before {
+            content: "✓";
+            color: #2193b0;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                margin: 20px auto;
+            }
+
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .download-btn {
+                padding: 15px 30px;
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>DNS HOANG NAM</h1>
+            <p>Chặn quảng cáo và bảo vệ quyền riêng tư cho thiết bị iOS của bạn</p>
+        </div>
+        
+        <a href="https://raw.githubusercontent.com/hoangnamnion/DNSVIP/refs/heads/main/DNSHOANGNAM.mobileconfig" class="download-btn">
+            ⬇️ Tải xuống cấu hình
+        </a>
+
+        <div class="info-list">
+            <li>🏦 Số tài khoản: 2005838699</li>
+            <li>💳 Ngân hàng: Techcombank</li>
+            <li>👤 Tên: CAO VĂN NAM</li>
+            <li>⏳ Hạn sử dụng: Vĩnh Viễn</li>
+            <li>👨‍💻 Admin: HOANG NAM</li>
+            <li>📱 Liên hệ: 0559.467.043</li>
+            <li>💬 Zalo: Cao Văn Nam</li>
+        </div>
+
+        <div class="features">
+            <h2>🔒 Tính năng bảo mật</h2>
+            <ul>
+                <li>Chặn quảng cáo toàn diện</li>
+                <li>Chặn theo dõi từ mọi nguồn</li>
+                <li>Bảo vệ quyền riêng tư tối đa</li>
+                <li>Tăng tốc độ tải trang</li>
+                <li>Tiết kiệm pin và dữ liệu</li>
+                <li>Không cần jailbreak - không MDM</li>
+                <li>Tương thích iOS 12.0 trở lên</li>
+                <li>Tự động cập nhật danh sách chặn</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html> 
